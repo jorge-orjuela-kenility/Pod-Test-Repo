@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class SharedTruvideoSdkConfiguration, SharedBuildConfig, SharedConfigurationModule, SharedKodein_diDIModule, SharedKotlinThrowable, SharedKotlinArray<T>, SharedKotlinException, SharedTruvideoSdkException, SharedTruvideoSdkSettings, SharedTruvideoSdkAuthentication, SharedTruvideoSdkIpResult, SharedTruvideoSdkDeviceUtilCompanion, SharedTruvideoSdkDeviceInterface, SharedTruvideoSdkDeviceUtil, SharedTruvideoSdkNetworkUtilCompanion, SharedTruvideoSdkNetworkType, SharedTruvideoSdkNetworkInterface, SharedTruvideoSdkNetworkUtil, SharedTruvideoSdkLogSeverity, SharedTruvideoSdkHttpResponse, SharedTruvideoSdkAuthenticationCompanion, SharedTruvideoSdkIpConfiguration, SharedTruvideoSdkLogConfiguration, SharedTruvideoSdkEnvironment, SharedTruvideoSdkConfigurationCompanion, SharedTruvideoSdkEnvironmentCompanion, SharedTruvideoSdkHttpErrorResponseCompanion, SharedTruvideoSdkHttpErrorResponse, SharedTruvideoSdkIPResponseCompanion, SharedTruvideoSdkIPResponse, SharedTruvideoSdkIpConfigurationCompanion, SharedTruvideoSdkLogModule, SharedTruvideoSdkLogCompanion, SharedTruvideoSdkLog, SharedTruvideoSdkLogConfigurationCompanion, SharedKotlinEnumCompanion, SharedKotlinEnum<E>, SharedTruvideoSdkStorageCredentials, SharedTruvideoSdkSettingsCompanion, SharedTruvideoSdkStorageCredentialsCompanion, SharedKotlinRuntimeException, SharedKotlinIllegalStateException, SharedKodein_diDIBuilderDelegateBinder<T>, SharedKotlinx_serialization_coreSerializersModule, SharedKotlinx_serialization_coreSerialKind, SharedKotlinNothing, SharedKodein_diDIKey<__contravariant C, __contravariant A, __covariant T>, SharedKodein_diScopeRegistry, SharedKotlinKTypeProjection, SharedKotlinUnit, SharedKodein_diDITrigger, SharedKodein_diReference<__covariant T>, SharedKotlinKVariance, SharedKotlinKTypeProjectionCompanion, SharedKodein_diDIDefinition<C, A, T>, SharedKotlinTriple<__covariant A, __covariant B, __covariant C>, SharedKodein_diSearchSpecs, SharedKodein_diDIDefining<C, A, T>;
+@class SharedTruvideoSdkConfiguration, SharedTruvideoSdkSettings, SharedTruvideoSdkAuthentication, SharedBuildConfig, SharedConfigurationModule, SharedKodein_diDIModule, SharedKotlinThrowable, SharedKotlinArray<T>, SharedKotlinException, SharedTruvideoSdkException, SharedTruvideoSdkIpResult, SharedTruvideoSdkDeviceUtilCompanion, SharedTruvideoSdkDeviceInterface, SharedTruvideoSdkDeviceUtil, SharedTruvideoSdkNetworkUtilCompanion, SharedTruvideoSdkNetworkType, SharedTruvideoSdkNetworkInterface, SharedTruvideoSdkNetworkUtil, SharedTruvideoSdkLogSeverity, SharedTruvideoSdkHttpResponse, SharedTruvideoJwtInfo, SharedKotlinx_datetimeInstant, SharedTruvideoSdkAuthenticationCompanion, SharedTruvideoSdkIpConfiguration, SharedTruvideoSdkLogConfiguration, SharedTruvideoSdkEnvironment, SharedTruvideoSdkConfigurationCompanion, SharedTruvideoSdkEnvironmentCompanion, SharedTruvideoSdkHttpErrorResponseCompanion, SharedTruvideoSdkHttpErrorResponse, SharedTruvideoSdkIPResponseCompanion, SharedTruvideoSdkIPResponse, SharedTruvideoSdkIpConfigurationCompanion, SharedTruvideoSdkLogModule, SharedTruvideoSdkLogCompanion, SharedTruvideoSdkLog, SharedTruvideoSdkLogConfigurationCompanion, SharedKotlinEnumCompanion, SharedKotlinEnum<E>, SharedTruvideoSdkStorageCredentials, SharedTruvideoSdkSettingsCompanion, SharedTruvideoSdkStorageCredentialsCompanion, SharedKotlinRuntimeException, SharedKotlinIllegalStateException, SharedKotlinx_datetimeInstantCompanion, SharedKodein_diDIBuilderDelegateBinder<T>, SharedKotlinx_serialization_coreSerializersModule, SharedKotlinx_serialization_coreSerialKind, SharedKotlinNothing, SharedKodein_diDIKey<__contravariant C, __contravariant A, __covariant T>, SharedKodein_diScopeRegistry, SharedKotlinKTypeProjection, SharedKotlinUnit, SharedKodein_diDITrigger, SharedKodein_diReference<__covariant T>, SharedKotlinKVariance, SharedKotlinKTypeProjectionCompanion, SharedKodein_diDIDefinition<C, A, T>, SharedKotlinTriple<__covariant A, __covariant B, __covariant C>, SharedKodein_diSearchSpecs, SharedKodein_diDIDefining<C, A, T>;
 
-@protocol SharedAuthService, SharedConnectivityService, SharedHttpService, SharedIpService, SharedLocalStorageService, SharedLogService, SharedHttpAdapter, SharedLogAdapter, SharedKotlinx_serialization_coreKSerializer, SharedKotlinComparable, SharedKotlinx_coroutines_coreStateFlow, SharedLogFileUploadHandler, SharedLocalStorageRepository, SharedTruvideoSdkCommon, SharedKodein_diDIBuilder, SharedKotlinKProperty, SharedKotlinIterator, SharedKotlinx_serialization_coreEncoder, SharedKotlinx_serialization_coreSerialDescriptor, SharedKotlinx_serialization_coreSerializationStrategy, SharedKotlinx_serialization_coreDecoder, SharedKotlinx_serialization_coreDeserializationStrategy, SharedKotlinx_coroutines_coreFlowCollector, SharedKotlinx_coroutines_coreFlow, SharedKotlinx_coroutines_coreSharedFlow, SharedKodein_diDIBinding, SharedKodein_diDIBuilderDirectBinder, SharedKodein_diDIBuilderTypeBinder, SharedKaveritTypeToken, SharedKodein_diDIBuilderArgSetBinder, SharedKodein_diDIBuilderSetBinder, SharedKodein_diContextTranslator, SharedKodein_diDIBuilderConstantBinder, SharedKodein_diDirectDI, SharedKodein_diDIContainerBuilder, SharedKodein_diDIBindBuilder, SharedKodein_diScope, SharedKodein_diDIBindBuilderWithScope, SharedKotlinKType, SharedKotlinKAnnotatedElement, SharedKotlinKCallable, SharedKotlinx_serialization_coreCompositeEncoder, SharedKotlinAnnotation, SharedKotlinx_serialization_coreCompositeDecoder, SharedKodein_diDIBindingCopier, SharedKodein_diBindingDI, SharedKodein_diBinding, SharedKodein_diDIContext, SharedKodein_diDIContainer, SharedKodein_diDI, SharedKodein_diDirectDIAware, SharedKodein_diDirectDIBase, SharedKotlinKClassifier, SharedKotlinx_serialization_coreSerializersModuleCollector, SharedKotlinKClass, SharedKodein_diWithContext, SharedKodein_diDITree, SharedKodein_diDIAware, SharedKodein_diScopeCloseable, SharedKotlinKDeclarationContainer, SharedKodein_diExternalSource, SharedKotlinLazy;
+@protocol SharedAuthService, SharedConnectivityService, SharedHttpService, SharedIpService, SharedLocalStorageService, SharedLogService, SharedHttpAdapter, SharedLogAdapter, SharedGetSettingsUseCase, SharedRefreshTokenUseCase, SharedRegisterDeviceUseCase, SharedKotlinx_serialization_coreKSerializer, SharedKotlinComparable, SharedKotlinx_coroutines_coreStateFlow, SharedLogFileUploadHandler, SharedLocalStorageRepository, SharedTruvideoSdkCommon, SharedKodein_diDIBuilder, SharedKotlinKProperty, SharedKotlinIterator, SharedKotlinx_serialization_coreEncoder, SharedKotlinx_serialization_coreSerialDescriptor, SharedKotlinx_serialization_coreSerializationStrategy, SharedKotlinx_serialization_coreDecoder, SharedKotlinx_serialization_coreDeserializationStrategy, SharedKotlinx_coroutines_coreFlowCollector, SharedKotlinx_coroutines_coreFlow, SharedKotlinx_coroutines_coreSharedFlow, SharedKodein_diDIBinding, SharedKodein_diDIBuilderDirectBinder, SharedKodein_diDIBuilderTypeBinder, SharedKaveritTypeToken, SharedKodein_diDIBuilderArgSetBinder, SharedKodein_diDIBuilderSetBinder, SharedKodein_diContextTranslator, SharedKodein_diDIBuilderConstantBinder, SharedKodein_diDirectDI, SharedKodein_diDIContainerBuilder, SharedKodein_diDIBindBuilder, SharedKodein_diScope, SharedKodein_diDIBindBuilderWithScope, SharedKotlinKType, SharedKotlinKAnnotatedElement, SharedKotlinKCallable, SharedKotlinx_serialization_coreCompositeEncoder, SharedKotlinAnnotation, SharedKotlinx_serialization_coreCompositeDecoder, SharedKodein_diDIBindingCopier, SharedKodein_diBindingDI, SharedKodein_diBinding, SharedKodein_diDIContext, SharedKodein_diDIContainer, SharedKodein_diDI, SharedKodein_diDirectDIAware, SharedKodein_diDirectDIBase, SharedKotlinKClassifier, SharedKotlinx_serialization_coreSerializersModuleCollector, SharedKotlinKClass, SharedKodein_diWithContext, SharedKodein_diDITree, SharedKodein_diDIAware, SharedKodein_diScopeCloseable, SharedKotlinKDeclarationContainer, SharedKodein_diExternalSource, SharedKotlinLazy;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -157,6 +157,39 @@ __attribute__((swift_name("TruvideoSdkCommon")))
 @property (readonly) NSString *version __attribute__((swift_name("version")));
 @end
 
+__attribute__((swift_name("GetSettingsUseCase")))
+@protocol SharedGetSettingsUseCase
+@required
+
+/**
+ * @note This method converts instances of TruvideoSdkException, CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)invokeDeviceID:(NSString *)deviceID accessToken:(NSString *)accessToken completionHandler:(void (^)(SharedTruvideoSdkSettings * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(deviceID:accessToken:completionHandler:)")));
+@end
+
+__attribute__((swift_name("RefreshTokenUseCase")))
+@protocol SharedRefreshTokenUseCase
+@required
+
+/**
+ * @note This method converts instances of TruvideoSdkException, CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)invokeApiKey:(NSString *)apiKey refreshToken:(NSString *)refreshToken deviceID:(NSString *)deviceID accessTokenTTL:(SharedLong * _Nullable)accessTokenTTL refreshTokenTTL:(SharedLong * _Nullable)refreshTokenTTL completionHandler:(void (^)(SharedTruvideoSdkAuthentication * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(apiKey:refreshToken:deviceID:accessTokenTTL:refreshTokenTTL:completionHandler:)")));
+@end
+
+__attribute__((swift_name("RegisterDeviceUseCase")))
+@protocol SharedRegisterDeviceUseCase
+@required
+
+/**
+ * @note This method converts instances of TruvideoSdkException, CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)invokeApiKey:(NSString *)apiKey payload:(NSString *)payload signature:(NSString *)signature deviceID:(NSString * _Nullable)deviceID accessTokenTTL:(SharedLong * _Nullable)accessTokenTTL refreshTokenTTL:(SharedLong * _Nullable)refreshTokenTTL externalId:(NSString * _Nullable)externalId completionHandler:(void (^)(SharedTruvideoSdkAuthentication * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(apiKey:payload:signature:deviceID:accessTokenTTL:refreshTokenTTL:externalId:completionHandler:)")));
+@end
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("BuildConfig")))
 @interface SharedBuildConfig : SharedBase
@@ -250,6 +283,16 @@ __attribute__((swift_name("TruvideoSdkNotInitializedException")))
 - (instancetype)initWithMessage:(NSString *)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @end
 
+__attribute__((swift_name("TruvideoSdkUnauthorizedRequestException")))
+@interface SharedTruvideoSdkUnauthorizedRequestException : SharedKotlinException
+- (instancetype)initWithMessage:(NSString *)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(SharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithCause:(SharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (readonly) NSString *message __attribute__((swift_name("message")));
+@end
+
 __attribute__((swift_name("LocalStorageRepository")))
 @protocol SharedLocalStorageRepository
 @required
@@ -277,8 +320,8 @@ __attribute__((swift_name("IsOnlineUseCase")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("GetSettingsUseCase")))
-@interface SharedGetSettingsUseCase : SharedBase
+__attribute__((swift_name("GetSettingsUseCaseImpl")))
+@interface SharedGetSettingsUseCaseImpl : SharedBase <SharedGetSettingsUseCase>
 - (instancetype)initWithHttpAdapter:(id<SharedHttpAdapter>)httpAdapter logAdapter:(id<SharedLogAdapter>)logAdapter configuration:(SharedTruvideoSdkConfiguration *)configuration __attribute__((swift_name("init(httpAdapter:logAdapter:configuration:)"))) __attribute__((objc_designated_initializer));
 
 /**
@@ -289,8 +332,8 @@ __attribute__((swift_name("GetSettingsUseCase")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("RefreshTokenUseCase")))
-@interface SharedRefreshTokenUseCase : SharedBase
+__attribute__((swift_name("RefreshTokenUseCaseImpl")))
+@interface SharedRefreshTokenUseCaseImpl : SharedBase <SharedRefreshTokenUseCase>
 - (instancetype)initWithHttpAdapter:(id<SharedHttpAdapter>)httpAdapter logAdapter:(id<SharedLogAdapter>)logAdapter configuration:(SharedTruvideoSdkConfiguration *)configuration __attribute__((swift_name("init(httpAdapter:logAdapter:configuration:)"))) __attribute__((objc_designated_initializer));
 
 /**
@@ -301,8 +344,8 @@ __attribute__((swift_name("RefreshTokenUseCase")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("RegisterDeviceUseCase")))
-@interface SharedRegisterDeviceUseCase : SharedBase
+__attribute__((swift_name("RegisterDeviceUseCaseImpl")))
+@interface SharedRegisterDeviceUseCaseImpl : SharedBase <SharedRegisterDeviceUseCase>
 - (instancetype)initWithHttpAdapter:(id<SharedHttpAdapter>)httpAdapter logAdapter:(id<SharedLogAdapter>)logAdapter configuration:(SharedTruvideoSdkConfiguration *)configuration __attribute__((swift_name("init(httpAdapter:logAdapter:configuration:)"))) __attribute__((objc_designated_initializer));
 
 /**
@@ -413,6 +456,19 @@ __attribute__((swift_name("HttpAdapter")))
 - (void)postUrl:(NSString *)url headers:(NSDictionary<NSString *, NSString *> *)headers body:(id _Nullable)body retry:(BOOL)retry addLogs:(BOOL)addLogs completionHandler:(void (^)(SharedTruvideoSdkHttpResponse * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("post(url:headers:body:retry:addLogs:completionHandler:)")));
 @end
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("TruvideoJwtInfo")))
+@interface SharedTruvideoJwtInfo : SharedBase
+- (instancetype)initWithExpirationTime:(SharedLong * _Nullable)expirationTime isExpired:(BOOL)isExpired __attribute__((swift_name("init(expirationTime:isExpired:)"))) __attribute__((objc_designated_initializer));
+- (SharedTruvideoJwtInfo *)doCopyExpirationTime:(SharedLong * _Nullable)expirationTime isExpired:(BOOL)isExpired __attribute__((swift_name("doCopy(expirationTime:isExpired:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) SharedKotlinx_datetimeInstant * _Nullable expirationDate __attribute__((swift_name("expirationDate")));
+@property (readonly) SharedLong * _Nullable expirationTime __attribute__((swift_name("expirationTime")));
+@property (readonly) BOOL isExpired __attribute__((swift_name("isExpired")));
+@end
+
 
 /**
  * @note annotations
@@ -452,13 +508,14 @@ __attribute__((swift_name("TruvideoSdkAuthentication.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("TruvideoSdkConfiguration")))
 @interface SharedTruvideoSdkConfiguration : SharedBase
-- (instancetype)initWithDebug:(BOOL)debug tokenExtraSec:(int32_t)tokenExtraSec ip:(SharedTruvideoSdkIpConfiguration *)ip log:(SharedTruvideoSdkLogConfiguration *)log environment:(SharedTruvideoSdkEnvironment *)environment __attribute__((swift_name("init(debug:tokenExtraSec:ip:log:environment:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithDebug:(BOOL)debug tokenExtraSec:(int32_t)tokenExtraSec authValidPeriod:(int64_t)authValidPeriod ip:(SharedTruvideoSdkIpConfiguration *)ip log:(SharedTruvideoSdkLogConfiguration *)log environment:(SharedTruvideoSdkEnvironment *)environment __attribute__((swift_name("init(debug:tokenExtraSec:authValidPeriod:ip:log:environment:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) SharedTruvideoSdkConfigurationCompanion *companion __attribute__((swift_name("companion")));
-- (SharedTruvideoSdkConfiguration *)doCopyDebug:(BOOL)debug tokenExtraSec:(int32_t)tokenExtraSec ip:(SharedTruvideoSdkIpConfiguration *)ip log:(SharedTruvideoSdkLogConfiguration *)log environment:(SharedTruvideoSdkEnvironment *)environment __attribute__((swift_name("doCopy(debug:tokenExtraSec:ip:log:environment:)")));
+- (SharedTruvideoSdkConfiguration *)doCopyDebug:(BOOL)debug tokenExtraSec:(int32_t)tokenExtraSec authValidPeriod:(int64_t)authValidPeriod ip:(SharedTruvideoSdkIpConfiguration *)ip log:(SharedTruvideoSdkLogConfiguration *)log environment:(SharedTruvideoSdkEnvironment *)environment __attribute__((swift_name("doCopy(debug:tokenExtraSec:authValidPeriod:ip:log:environment:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)toJson __attribute__((swift_name("toJson()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+@property int64_t authValidPeriod __attribute__((swift_name("authValidPeriod")));
 @property BOOL debug __attribute__((swift_name("debug")));
 @property SharedTruvideoSdkEnvironment *environment __attribute__((swift_name("environment")));
 @property SharedTruvideoSdkIpConfiguration *ip __attribute__((swift_name("ip")));
@@ -959,12 +1016,13 @@ __attribute__((swift_name("AuthService")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)refreshAccessTokenTTL:(SharedLong * _Nullable)accessTokenTTL refreshTokenTTL:(SharedLong * _Nullable)refreshTokenTTL completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("refresh(accessTokenTTL:refreshTokenTTL:completionHandler:)")));
-@property (readonly) id<SharedKotlinx_coroutines_coreStateFlow> apiKey __attribute__((swift_name("apiKey")));
-@property (readonly) id<SharedKotlinx_coroutines_coreStateFlow> authentication __attribute__((swift_name("authentication")));
-@property (readonly) id<SharedKotlinx_coroutines_coreStateFlow> isAuthenticated __attribute__((swift_name("isAuthenticated")));
-@property (readonly) id<SharedKotlinx_coroutines_coreStateFlow> isAuthenticationExpired __attribute__((swift_name("isAuthenticationExpired")));
-@property (readonly) id<SharedKotlinx_coroutines_coreStateFlow> isInitialized __attribute__((swift_name("isInitialized")));
-@property (readonly) id<SharedKotlinx_coroutines_coreStateFlow> settings __attribute__((swift_name("settings")));
+@property (readonly) NSString *apiKey __attribute__((swift_name("apiKey")));
+@property (readonly) SharedTruvideoSdkAuthentication * _Nullable authentication __attribute__((swift_name("authentication")));
+@property (readonly) BOOL isAuthenticated __attribute__((swift_name("isAuthenticated")));
+@property (readonly) BOOL isAuthenticationExpired __attribute__((swift_name("isAuthenticationExpired")));
+@property (readonly) BOOL isInValidPeriod __attribute__((swift_name("isInValidPeriod")));
+@property (readonly) BOOL isInitialized_ __attribute__((swift_name("isInitialized_")));
+@property (readonly) SharedTruvideoSdkSettings * _Nullable settings __attribute__((swift_name("settings")));
 @end
 
 __attribute__((swift_name("ConnectivityService")))
@@ -988,34 +1046,6 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("TruvideoSdkCommonKt")))
 @interface SharedTruvideoSdkCommonKt : SharedBase
 @property (class, readonly) id<SharedTruvideoSdkCommon> sdk_common __attribute__((swift_name("sdk_common")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Kodein_diDIModule")))
-@interface SharedKodein_diDIModule : SharedBase
-- (instancetype)initWithName:(NSString *)name allowSilentOverride:(BOOL)allowSilentOverride prefix:(NSString *)prefix init:(void (^)(id<SharedKodein_diDIBuilder>))init __attribute__((swift_name("init(name:allowSilentOverride:prefix:init:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithAllowSilentOverride:(BOOL)allowSilentOverride prefix:(NSString *)prefix init:(void (^)(id<SharedKodein_diDIBuilder>))init __attribute__((swift_name("init(allowSilentOverride:prefix:init:)"))) __attribute__((objc_designated_initializer));
-- (SharedKodein_diDIModule *)doCopyAllowSilentOverride:(BOOL)allowSilentOverride prefix:(NSString *)prefix init:(void (^)(id<SharedKodein_diDIBuilder>))init __attribute__((swift_name("doCopy(allowSilentOverride:prefix:init:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (SharedKodein_diDIModule *)getValueThisRef:(id _Nullable)thisRef property:(id<SharedKotlinKProperty>)property __attribute__((swift_name("getValue(thisRef:property:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) BOOL allowSilentOverride __attribute__((swift_name("allowSilentOverride")));
-@property (readonly, getter=doInit) void (^init)(id<SharedKodein_diDIBuilder>) __attribute__((swift_name("init")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@property (readonly) NSString *prefix __attribute__((swift_name("prefix")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinArray")))
-@interface SharedKotlinArray<T> : SharedBase
-+ (instancetype)arrayWithSize:(int32_t)size init:(T _Nullable (^)(SharedInt *))init __attribute__((swift_name("init(size:init:)")));
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (T _Nullable)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
-- (id<SharedKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
-- (void)setIndex:(int32_t)index value:(T _Nullable)value __attribute__((swift_name("set(index:value:)")));
-@property (readonly) int32_t size __attribute__((swift_name("size")));
 @end
 
 __attribute__((swift_name("KotlinRuntimeException")))
@@ -1048,6 +1078,55 @@ __attribute__((swift_name("KotlinCancellationException")))
 - (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithMessage:(NSString * _Nullable)message cause:(SharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithCause:(SharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kodein_diDIModule")))
+@interface SharedKodein_diDIModule : SharedBase
+- (instancetype)initWithName:(NSString *)name allowSilentOverride:(BOOL)allowSilentOverride prefix:(NSString *)prefix init:(void (^)(id<SharedKodein_diDIBuilder>))init __attribute__((swift_name("init(name:allowSilentOverride:prefix:init:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithAllowSilentOverride:(BOOL)allowSilentOverride prefix:(NSString *)prefix init:(void (^)(id<SharedKodein_diDIBuilder>))init __attribute__((swift_name("init(allowSilentOverride:prefix:init:)"))) __attribute__((objc_designated_initializer));
+- (SharedKodein_diDIModule *)doCopyAllowSilentOverride:(BOOL)allowSilentOverride prefix:(NSString *)prefix init:(void (^)(id<SharedKodein_diDIBuilder>))init __attribute__((swift_name("doCopy(allowSilentOverride:prefix:init:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (SharedKodein_diDIModule *)getValueThisRef:(id _Nullable)thisRef property:(id<SharedKotlinKProperty>)property __attribute__((swift_name("getValue(thisRef:property:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) BOOL allowSilentOverride __attribute__((swift_name("allowSilentOverride")));
+@property (readonly, getter=doInit) void (^init)(id<SharedKodein_diDIBuilder>) __attribute__((swift_name("init")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) NSString *prefix __attribute__((swift_name("prefix")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinArray")))
+@interface SharedKotlinArray<T> : SharedBase
++ (instancetype)arrayWithSize:(int32_t)size init:(T _Nullable (^)(SharedInt *))init __attribute__((swift_name("init(size:init:)")));
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (T _Nullable)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (id<SharedKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
+- (void)setIndex:(int32_t)index value:(T _Nullable)value __attribute__((swift_name("set(index:value:)")));
+@property (readonly) int32_t size __attribute__((swift_name("size")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable(with=NormalClass(value=kotlinx/datetime/serializers/InstantIso8601Serializer))
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_datetimeInstant")))
+@interface SharedKotlinx_datetimeInstant : SharedBase <SharedKotlinComparable>
+@property (class, readonly, getter=companion) SharedKotlinx_datetimeInstantCompanion *companion __attribute__((swift_name("companion")));
+- (int32_t)compareToOther:(SharedKotlinx_datetimeInstant *)other __attribute__((swift_name("compareTo(other:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (SharedKotlinx_datetimeInstant *)minusDuration:(int64_t)duration __attribute__((swift_name("minus(duration:)")));
+- (int64_t)minusOther:(SharedKotlinx_datetimeInstant *)other __attribute__((swift_name("minus(other:)")));
+- (SharedKotlinx_datetimeInstant *)plusDuration:(int64_t)duration __attribute__((swift_name("plus(duration:)")));
+- (int64_t)toEpochMilliseconds __attribute__((swift_name("toEpochMilliseconds()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int64_t epochSeconds __attribute__((swift_name("epochSeconds")));
+@property (readonly) int32_t nanosecondsOfSecond __attribute__((swift_name("nanosecondsOfSecond")));
 @end
 
 __attribute__((swift_name("Kotlinx_serialization_coreSerializationStrategy")))
@@ -1159,6 +1238,23 @@ __attribute__((swift_name("KotlinIterator")))
 @required
 - (BOOL)hasNext __attribute__((swift_name("hasNext()")));
 - (id _Nullable)next __attribute__((swift_name("next()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_datetimeInstant.Companion")))
+@interface SharedKotlinx_datetimeInstantCompanion : SharedBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedKotlinx_datetimeInstantCompanion *shared __attribute__((swift_name("shared")));
+- (SharedKotlinx_datetimeInstant *)fromEpochMillisecondsEpochMilliseconds:(int64_t)epochMilliseconds __attribute__((swift_name("fromEpochMilliseconds(epochMilliseconds:)")));
+- (SharedKotlinx_datetimeInstant *)fromEpochSecondsEpochSeconds:(int64_t)epochSeconds nanosecondAdjustment:(int32_t)nanosecondAdjustment __attribute__((swift_name("fromEpochSeconds(epochSeconds:nanosecondAdjustment:)")));
+- (SharedKotlinx_datetimeInstant *)fromEpochSecondsEpochSeconds:(int64_t)epochSeconds nanosecondAdjustment_:(int64_t)nanosecondAdjustment __attribute__((swift_name("fromEpochSeconds(epochSeconds:nanosecondAdjustment_:)")));
+- (SharedKotlinx_datetimeInstant *)now __attribute__((swift_name("now()"))) __attribute__((unavailable("Use Clock.System.now() instead")));
+- (SharedKotlinx_datetimeInstant *)parseIsoString:(NSString *)isoString __attribute__((swift_name("parse(isoString:)")));
+- (id<SharedKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@property (readonly) SharedKotlinx_datetimeInstant *DISTANT_FUTURE __attribute__((swift_name("DISTANT_FUTURE")));
+@property (readonly) SharedKotlinx_datetimeInstant *DISTANT_PAST __attribute__((swift_name("DISTANT_PAST")));
 @end
 
 __attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
@@ -1856,7 +1952,7 @@ __attribute__((swift_name("Kodein_diExternalSource")))
 __attribute__((swift_name("KotlinLazy")))
 @protocol SharedKotlinLazy
 @required
-- (BOOL)isInitialized_ __attribute__((swift_name("isInitialized()")));
+- (BOOL)isInitialized__ __attribute__((swift_name("isInitialized()")));
 @property (readonly) id _Nullable value __attribute__((swift_name("value")));
 @end
 
