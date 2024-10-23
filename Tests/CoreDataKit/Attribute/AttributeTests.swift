@@ -4,7 +4,6 @@
 //
 
 import CoreData
-import TruvideoSdkFoundationTesting
 import XCTest
 
 @testable import TruvideoSdkFoundation
