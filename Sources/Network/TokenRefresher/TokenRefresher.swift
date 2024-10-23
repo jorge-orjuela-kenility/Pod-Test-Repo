@@ -4,8 +4,7 @@
 //
 
 import Foundation
-
-@_implementationOnly import shared
+import shared
 
 /// A protocol that defines the interface for refreshing authentication tokens.
 ///

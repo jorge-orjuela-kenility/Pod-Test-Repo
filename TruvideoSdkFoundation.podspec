@@ -8,18 +8,19 @@ Pod::Spec.new do |spec|
   spec.author       = { 'Your Name' => 'developer@truvideo.com' }
   spec.source       = { :git => 'https://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@github.com/jorge-orjuela-kenility/Pod-Test-Repo.git', :tag => spec.version.to_s }
   spec.platform     = :ios, '15.0'  # Minimum iOS version supported
-  spec.swift_version = '5.10'
+  spec.swift_version = '5.0'
   
   # Points to the source files of the Swift package
   spec.source_files  = 'Sources/**/*.{swift}'
 
   # Points to the vendored framework URL
-spec.vendored_frameworks = ['TruvideoSdk.xcframework']
+  spec.vendored_frameworks = 'shared.xcframework'
 
   # Subspec for Testing related components
-  spec.subspec 'Testing' do |testing_spec|
-    testing_spec.source_files = 'Testing/**/*.{swift}'
-  end
+  #spec.subspec 'Testing' do |testing_spec|
+    #testing_spec.source_files = 'Testing/**/*.{swift}'
+    #testing_spec.vendored_frameworks = 'TruvideoSdk.xcframework'
+  #end
 
   # Test specification for unit tests
   spec.test_spec 'Tests' do |test_spec|

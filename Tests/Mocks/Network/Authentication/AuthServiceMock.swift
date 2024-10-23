@@ -4,8 +4,7 @@
 //
 
 import Foundation
-
-@_implementationOnly import shared
+import shared
 
 /// A mock implementation of `AuthService` for testing purposes.
 ///

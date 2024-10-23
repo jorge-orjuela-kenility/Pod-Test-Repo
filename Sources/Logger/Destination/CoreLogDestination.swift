@@ -4,8 +4,7 @@
 //
 
 import Foundation
-
-@_implementationOnly import shared
+import shared
 
 /// A public enumeration representing different module metadata key values used for logging purposes in the SDK.
 ///

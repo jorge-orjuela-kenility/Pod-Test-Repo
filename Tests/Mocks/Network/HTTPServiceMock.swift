@@ -4,8 +4,7 @@
 //
 
 import Foundation
-
-@_implementationOnly import shared
+import shared
 
 /// A mock implementation of the `HttpService` protocol for testing purposes.
 final class HTTPServiceMock: HttpService {

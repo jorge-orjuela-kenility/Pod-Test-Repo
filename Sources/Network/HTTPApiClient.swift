@@ -4,8 +4,7 @@
 //
 
 import Foundation
-
-@_implementationOnly import shared
+import shared
 
 private extension String {
     /// Returns the ``URL`` representation of the resource using the path component.

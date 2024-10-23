@@ -4,8 +4,7 @@
 //
 
 import Foundation
-
-@_implementationOnly import shared
+import shared
 
 /// A type that determines whether a request should be intercepted.
 public protocol RequestInterceptor {

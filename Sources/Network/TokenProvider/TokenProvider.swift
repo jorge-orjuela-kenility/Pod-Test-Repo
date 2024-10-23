@@ -4,8 +4,7 @@
 //
 
 import Foundation
-
-@_implementationOnly import shared
+import shared
 
 /// Provides an abstraction for access token retrieval.
 public protocol TokenProvider {

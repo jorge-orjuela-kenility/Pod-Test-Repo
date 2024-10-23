@@ -25,8 +25,6 @@ extension String {
         guard let dateFormatter = dateFormatter.copy() as? DateFormatter else { return nil }
 
         dateFormatter.dateFormat = format
-        dateFormatter.timeZone = TimeZone(identifier: "UTC")
-        
         return dateFormatter.date(from: self)
     }
 }

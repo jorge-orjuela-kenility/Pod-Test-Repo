@@ -4,10 +4,9 @@
 //
 
 import Foundation
+import shared
 
 @testable import TruvideoSdkFoundation
-
-@_implementationOnly import shared
 
 // Mock class for RequestInterceptor
 final class RequestInterceptorMock: RequestInterceptor {
