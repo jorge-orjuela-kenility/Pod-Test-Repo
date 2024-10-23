@@ -1,0 +1,40 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TruvideoSdk
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Network
+import Swift
+@_exported import TruvideoSdk
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public let TruvideoSdk: any TruvideoSdk.TruvideoSdkInterface
+public protocol TruvideoSdkInterface {
+  #if compiler(>=5.3) && $AsyncAwait
+  func authenticate(apiKey: Swift.String, payload: Swift.String, signature: Swift.String, externalId: Swift.String?) async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  func initAuthentication() async throws
+  #endif
+  func generatePayload() -> Swift.String
+  func clearAuthentication()
+  var isAuthenticated: Swift.Bool { get }
+  var isAuthenticationExpired: Swift.Bool { get }
+  var apiKey: Swift.String { get }
+}
+extension TruvideoSdk.TruvideoSdkInterface {
+  #if compiler(>=5.3) && $AsyncAwait
+  public func authenticate(apiKey: Swift.String, payload: Swift.String, signature: Swift.String, externalId: Swift.String? = nil) async throws
+  #endif
+}
+public enum TruvideoSdkCoreError : Swift.Equatable, Swift.Error, Foundation.LocalizedError {
+  case userIsNotAuthenticated
+  case fileNotFound(url: Foundation.URL)
+  case invalidFile(url: Foundation.URL)
+  case uploadError(message: Swift.String)
+  case generic
+  case couldNotCheckIfItIsOnline
+  public static func == (a: TruvideoSdk.TruvideoSdkCoreError, b: TruvideoSdk.TruvideoSdkCoreError) -> Swift.Bool
+}
