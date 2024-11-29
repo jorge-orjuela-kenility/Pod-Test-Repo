@@ -46,7 +46,7 @@
 
         iframe {
             width: 100%;
-            height: calc(100% - 60px);
+            height: calc(100% - 100px);
             border: none;
             margin-top: 60px;
         }
@@ -74,7 +74,7 @@
         // Change the iframe src based on the selected version
         versionDropdown.addEventListener('change', () => {
             const selectedVersion = versionDropdown.value;
-            docFrame.src = `/${selectedVersion}/index.html`;
+            docFrame.src = `/${selectedVersion}/documentation/truvideosdk/`;
         });
 
         // Automatically select the version based on the iframe's src
