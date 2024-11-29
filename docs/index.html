@@ -1,1 +1,91 @@
-<!doctype html><html lang="en-US" class="no-js"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><link rel="icon" href="/favicon.ico"><link rel="mask-icon" href="/favicon.svg" color="#333333"><title>Documentation</title><script>var baseUrl = "/"</script><script defer="defer" src="/js/chunk-vendors.bdb7cbba.js"></script><script defer="defer" src="/js/index.a08b31d0.js"></script><link href="/css/index.3a335429.css" rel="stylesheet"></head><body data-color-scheme="auto"><noscript><style>.noscript{font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;margin:92px auto 140px auto;text-align:center;width:980px}.noscript-title{color:#111;font-size:48px;font-weight:600;letter-spacing:-.003em;line-height:1.08365;margin:0 auto 54px auto;width:502px}@media only screen and (max-width:1068px){.noscript{margin:90px auto 120px auto;width:692px}.noscript-title{font-size:40px;letter-spacing:0;line-height:1.1;margin:0 auto 45px auto;width:420px}}@media only screen and (max-width:735px){.noscript{margin:45px auto 60px auto;width:87.5%}.noscript-title{font-size:32px;letter-spacing:.004em;line-height:1.125;margin:0 auto 35px auto;max-width:330px;width:auto}}#loading-placeholder{display:none}</style><div class="noscript"><h1 class="noscript-title">This page requires JavaScript.</h1><p>Please turn on JavaScript in your browser and refresh the page to view its content.</p></div></noscript><div id="app"></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFramework Documentation</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .version-selector {
+            display: flex;
+            align-items: center;
+        }
+
+        label {
+            font-size: 1rem;
+            margin-right: 10px;
+        }
+
+        select {
+            font-size: 1rem;
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        iframe {
+            width: 100%;
+            height: calc(100% - 60px); /* Offset for the header height */
+            border: none;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MyFramework Documentation</h1>
+        <div class="version-selector">
+            <label for="version-dropdown">Select Version:</label>
+            <select id="version-dropdown">
+                <option value="v1.0" selected>Version 1.0</option>
+                <option value="v2.0">Version 2.0</option>
+            </select>
+        </div>
+    </header>
+
+    <!-- iframe to load documentation -->
+    <iframe id="doc-frame" src="/v1.0/index.html"></iframe>
+
+    <script>
+        const versionDropdown = document.getElementById('version-dropdown');
+        const docFrame = document.getElementById('doc-frame');
+
+        // Change the iframe src based on the selected version
+        versionDropdown.addEventListener('change', () => {
+            const selectedVersion = versionDropdown.value;
+            docFrame.src = `/${selectedVersion}/index.html`;
+        });
+
+        // Automatically select the version based on the iframe's src
+        window.addEventListener('load', () => {
+            const currentSrc = docFrame.src;
+            if (currentSrc.includes('/v2.0/')) {
+                versionDropdown.value = 'v2.0';
+            } else if (currentSrc.includes('/v1.0/')) {
+                versionDropdown.value = 'v1.0';
+            }
+        });
+    </script>
+</body>
+</html>
