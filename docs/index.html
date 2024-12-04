@@ -54,12 +54,13 @@
 </head>
 <body>
     <header>
-        <h1>Documentation</h1>
+        <h1></h1>
         <div class="version-selector">
             <label for="version-dropdown">Select Version:</label>
             <select id="version-dropdown">
                 <option value="v2.0">Version v2.0</option>
 <option value="v1.0">Version v1.0</option>
+<option value="76.2.1-DEV.200">Version 76.2.1-DEV.200</option>
 <option value="76.2.1-DEV.199">Version 76.2.1-DEV.199</option>
 <option value="76.2.1-DEV.198">Version 76.2.1-DEV.198</option>
 <option value="76.2.1-DEV.197">Version 76.2.1-DEV.197</option>
@@ -88,7 +89,7 @@
 
         // Update iframe based on selected version
         versionDropdown.addEventListener('change', () => {
-            docFrame.src = `./${versionDropdown.value}/documentation/truvideosdk/`;
+            docFrame.src = `${versionDropdown.value}/documentation/truvideosdk/`;
         });
     </script>
 </body>
