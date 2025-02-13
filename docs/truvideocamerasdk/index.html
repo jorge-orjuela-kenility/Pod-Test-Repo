@@ -66,18 +66,18 @@
         </div>
     </header>
 
-    <iframe id="doc-frame" src="76.2.1-DEV.204/documentation/truvideosdk/"></iframe>
+    <iframe id="doc-frame" src="v1.0/documentation/truvideocamerasdk/"></iframe>
 
     <script>
         const versionDropdown = document.getElementById('version-dropdown');
         const docFrame = document.getElementById('doc-frame');
 
         // Set the initial version dropdown value to the latest version
-        versionDropdown.value = "76.2.1-DEV.204";
+        versionDropdown.value = "1.0";
 
         // Update iframe based on selected version
         versionDropdown.addEventListener('change', () => {
-            docFrame.src = `${versionDropdown.value}/documentation/truvideosdk/`;
+            docFrame.src = `${versionDropdown.value}/documentation/truvideocamerasdk/`;
         });
     </script>
 </body>
