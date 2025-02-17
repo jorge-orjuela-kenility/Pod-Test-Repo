@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation Versions</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            padding: 0 20px;
+            height: 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .version-selector {
+            display: flex;
+            align-items: center;
+        }
+
+        label {
+            font-size: 1rem;
+            margin-right: 10px;
+        }
+
+        select {
+            font-size: 1rem;
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        iframe {
+            width: 100%;
+            height: calc(100% - 60px);
+            border: none;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1></h1>
+        <div class="version-selector">
+            <label for="version-dropdown">Select Version:</label>
+            <select id="version-dropdown">
+                <option value="76.2.1-DEV.204">Version 76.2.1-DEV.204</option>
+<option value="76.2.1-DEV.203">Version 76.2.1-DEV.203</option>
+<option value="76.2.1-DEV.202">Version 76.2.1-DEV.202</option>
+<option value="76.2.1-DEV.201">Version 76.2.1-DEV.201</option>
+            </select>
+        </div>
+    </header>
+
+    <iframe id="doc-frame" src="v1.0/documentation/truvideocamerasdk/"></iframe>
+
+    <script>
+        const versionDropdown = document.getElementById('version-dropdown');
+        const docFrame = document.getElementById('doc-frame');
+
+        // Set the initial version dropdown value to the latest version
+        versionDropdown.value = "1.0";
+
+        // Update iframe based on selected version
+        versionDropdown.addEventListener('change', () => {
+            docFrame.src = `${versionDropdown.value}/documentation/truvideocamerasdk/`;
+        });
+    </script>
+</body>
+</html>
